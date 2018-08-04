@@ -1,1 +1,1 @@
-include ':app', ':fa_lib'
+include ':app', ':fa_lib', ':net_lib', ':gaodemap_lib', ':module_splash', ':widget_lib', ':image_lib', ':push_lib'

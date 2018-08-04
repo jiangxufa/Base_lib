@@ -10,6 +10,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fa_lib" />
+            <option value="$PROJECT_DIR$/gaodemap_lib" />
+            <option value="$PROJECT_DIR$/image_lib" />
+            <option value="$PROJECT_DIR$/module_splash" />
+            <option value="$PROJECT_DIR$/net_lib" />
+            <option value="$PROJECT_DIR$/push_lib" />
+            <option value="$PROJECT_DIR$/widget_lib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

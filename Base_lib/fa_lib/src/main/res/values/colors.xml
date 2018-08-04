@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fb7299</color>
+    <color name="colorPrimaryDark">#fb7299</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="gray_three">#bebebe</color>
+
+
+    <color name="empty_color">#999999</color>
+</resources>

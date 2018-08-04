@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="module_splash_colorPrimary">#fb7299</color>
+    <color name="module_splash_colorPrimaryDark">#fb7299</color>
+    <color name="module_splash_colorAccent">#FF4081</color>
+    <color name="module_splash_yellow_50">#FFD11B</color>
+    <color name="module_splash_yellow_30">#FEA501</color>
+    <color name="module_splash_pink_30">#FD7071</color>
+    <color name="module_splash_blue_30">#20C1FD</color>
+    <color name="module_splash_white">#FFFFFF</color>
+    <color name="module_splash_white_30">#F2F2F2</color>
+    <color name="module_splash_white_80">#FAFAFA</color>
+    <color name="module_splash_orange_500">#FF9800</color>
+    <color name="module_splash_green_300">#81C784</color>
+    <color name="module_splash_gray">#B8B8B8</color>
+    <color name="module_splash_gray_20">#B3B3B3</color>
+    <color name="module_splash_gray_80">#BEBBB4</color>
+    <color name="module_splash_gray_alpha_80">#4fBEBBB4</color>
+    <color name="module_splash_gray_light_30">#E5E5E5</color>
+    <color name="module_splash_black_80">#222222</color>
+    <color name="module_splash_black_alpha_45">#71000000</color>
+    <color name="module_splash_transparent">#00000000</color>
+    <color name="module_splash_black_alpha_30">#48000000</color>
+    <color name="module_splash_black_alpha_60">#4f000000</color>
+    <color name="module_splash_background_dark">#212121</color>
+    <color name="module_splash_media_controller_bg">#99000000</color>
+    <color name="module_splash_font_normal">#555555</color>
+    <color name="module_splash_font_gray">#656565</color>
+    <color name="module_splash_line_bg">#e6e6e6</color>
+    <color name="module_splash_navigation_background_light">#FFF8F8F8</color>
+    <color name="module_splash_navigation_subtitle_primary_text">#FFFFFFFF</color>
+    <color name="module_splash_navigation_subtitle_secondary_text">#BFFFFFFF</color>
+    <color name="module_splash_item_tag_stroke_background">@color/module_splash_white_30</color>
+    <color name="module_splash_card_view_background">@color/module_splash_white</color>
+    <color name="module_splash_pink_text_color">#fb7299</color>
+    <color name="module_splash_item_tag_background">@color/module_splash_white</color>
+    <color name="module_splash_refresh_pink_background">#fb7299</color>
+    <color name="module_splash_bili_logo_pink_color">#fb7299</color>
+    <color name="module_splash_focus_text_color">#fb7299</color>
+    <color name="module_splash_focus_bg_color">@android:color/transparent</color>
+    <color name="module_splash_window_background">#eaeaea</color>
+    <color name="module_splash_bangumi_badge_gary">#e58B8B8C</color>
+    <color name="module_splash_nav_head_image_background">#F8668D</color>
+    <color name="module_splash_nav_head_round_background">#FDC7D6</color>
+    <color name="module_splash_nav_head_roung_text_background">#FB7BA0</color>
+    <color name="module_splash_bangumi_index_green_bg">#75C568</color>
+    <color name="module_splash_bangumi_index_yellow_bg">#FFC03A</color>
+    <color name="module_splash_vip_button_bg_color">#FEB1B3</color>
+    <color name="module_splash_vip_button_text_color">#FE6F70</color>
+    <color name="module_splash_search_background_color">#E9EAEA</color>
+
+    <color name="module_splash_theme_color_primary">#fb7299</color>
+    <color name="module_splash_theme_color_primary_dark">#b85671</color>
+    <color name="module_splash_theme_color_primary_trans">#99f0486c</color>
+    <color name="module_splash_theme_color_secondary">#fb7299</color>
+
+    <color name="module_splash_gray_dark">#999999</color>
+    <color name="module_splash_gray_trans">#44999999</color>
+    <color name="module_splash_gray_light">#dcdcdc</color>
+
+    <!-- theme color -->
+    <color name="module_splash_pink">#fb7299</color>
+    <color name="module_splash_pink_dark">#b85671</color>
+    <color name="module_splash_pink_trans">#99f0486c</color>
+    <color name="module_splash_pink_trans_44">#44f0486c</color>
+    <color name="module_splash_pink_trans_33">#7F06055F</color>
+    <color name="module_splash_pink_trans_2">#7F06056B</color>
+    <color name="module_splash_pink_trans_1">#7F0604A5</color>
+
+</resources>

@@ -11,6 +11,11 @@ android {
         versionName "1.0"
     }
     buildTypes {
+        debug {
+            manifestPlaceholders = [
+                    "gaode_apikey": "a9ebda2cc749905a9063dad7f4c66382"
+            ]
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -19,7 +24,11 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation rootProject.ext.config["appcompat-v7"]
-    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    implementation project(':gaodemap_lib')
+    implementation project(':net_lib')
+    implementation project(':widget_lib')
+    implementation project(':image_lib')
+    annotationProcessor rootProject.ext.config['butterknife-compiler']
 }

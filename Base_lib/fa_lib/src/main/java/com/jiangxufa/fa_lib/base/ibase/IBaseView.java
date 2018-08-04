@@ -1,7 +1,5 @@
 package com.jiangxufa.fa_lib.base.ibase;
 
-import com.jiangxufa.fa_lib.base.ToastStatus;
-
 /**
  * 创建时间：2018/6/8
  * 编写人：lenovo
@@ -10,8 +8,9 @@ import com.jiangxufa.fa_lib.base.ToastStatus;
 
 public interface IBaseView {
 
-    void showToast(String s);
+    void showLoadingDilaog();
 
-    void showToast(ToastStatus status, String s);
+    void showLoadingDialog(String msg);
 
+    void dismissLoading();
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础颜色 -->
+
+
+    <color name="image_lib_white">#ffffff</color>
+    <color name="image_lib_black">#000000</color>
+    <color name="image_lib_alpha_0x00">#00000000</color>
+    <color name="image_lib_alpha_0x05_black">#05000000</color>
+    <color name="image_lib_alpha_0x20_black">#20000000</color>
+    <color name="image_lib_alpha_0x48_black">#48000000</color>
+
+
+</resources>

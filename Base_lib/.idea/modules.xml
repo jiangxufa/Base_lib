@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/Base_lib.iml" filepath="$PROJECT_DIR$/Base_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fa_lib/fa_lib.iml" filepath="$PROJECT_DIR$/fa_lib/fa_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaodemap_lib/gaodemap_lib.iml" filepath="$PROJECT_DIR$/gaodemap_lib/gaodemap_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image_lib/image_lib.iml" filepath="$PROJECT_DIR$/image_lib/image_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_splash/module_splash.iml" filepath="$PROJECT_DIR$/module_splash/module_splash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net_lib/net_lib.iml" filepath="$PROJECT_DIR$/net_lib/net_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/push_lib/push_lib.iml" filepath="$PROJECT_DIR$/push_lib/push_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget_lib/widget_lib.iml" filepath="$PROJECT_DIR$/widget_lib/widget_lib.iml" />
     </modules>
   </component>
 </project>

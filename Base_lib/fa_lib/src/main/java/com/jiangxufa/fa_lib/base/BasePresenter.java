@@ -21,15 +21,16 @@ import io.reactivex.subjects.BehaviorSubject;
  * 功能描述：
  */
 
-public abstract class BasePresenter<IView extends IBaseView> implements GenericLifecycleObserver,IPresenter{
+public abstract class BasePresenter<IView extends IBaseView> implements GenericLifecycleObserver, IPresenter {
     private static final String TAG = "BasePresenter";
 
-    protected IView view;
+    protected IView mView;
 
     protected CompositeDisposable mCompositeDisposable;
 
     public BasePresenter(IView view) {
-        this.view = view;
+        this.mView = view;
+        mCompositeDisposable = new CompositeDisposable();
     }
 
     private final BehaviorSubject<Lifecycle.Event> lifecycleSubject = BehaviorSubject.create();
@@ -69,7 +70,7 @@ public abstract class BasePresenter<IView extends IBaseView> implements GenericL
         }
     }
 
-    protected abstract void onDestroy();
+    protected void onDestroy(){}
 
     public void addDispose(Disposable disposable) {
         if (mCompositeDisposable == null) {
@@ -89,7 +90,7 @@ public abstract class BasePresenter<IView extends IBaseView> implements GenericL
 
     @Override
     public void dropView() {
-        this.view = null;
+        this.mView = null;
     }
 }
 

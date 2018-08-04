@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/module_splash_pink_trans_33" android:state_pressed="true"/>
+    <item android:color="@color/module_splash_colorPrimary" android:state_pressed="false"/>
+    <item android:color="@color/module_splash_colorPrimary"/>
+
+</selector>

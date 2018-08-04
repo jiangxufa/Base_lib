@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="module_splash_AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/module_splash_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/module_splash_colorPrimaryDark</item>
+        <item name="colorAccent">@color/module_splash_colorAccent</item>
+        <item name="android:windowBackground">@color/module_splash_window_background</item>
+    </style>
+        <!--<item name="android:background">@color/image_lib_white</item>-->
+
+    <style name="module_splash_splash" parent="AppBaseFullTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/module_splash_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/module_splash_colorPrimaryDark</item>
+        <item name="colorAccent">@color/module_splash_colorAccent</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+    <!--colorControlNormal 表示控件默认的颜色，colorControlActivated 表示控件被激活时的颜色-->
+    <style name="module_splash_EditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/module_splash_colorPrimaryDark</item>
+    </style>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ResourceName">gaode_lib</string>
+    <string name="gaode_without_location_service" tools:ignore="ResourceName">没有开启定位服务</string>
+</resources>

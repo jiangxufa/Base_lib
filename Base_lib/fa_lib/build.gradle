@@ -27,9 +27,47 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     api rootProject.ext.config["appcompat-v7"]
+    api rootProject.ext.config["cardview-v7"]
     api rootProject.ext.config["rxandroid"]
     api rootProject.ext.config["rxjava"]
+    api rootProject.ext.config["rxbinding"]
     api rootProject.ext.config["rxlifecycle-android"]
-    implementation rootProject.ext.config["design"]
+    api rootProject.ext.config["design"]
+    api rootProject.ext.config['utilcode']
+    api rootProject.ext.config['butterknife']
+    annotationProcessor rootProject.ext.config['butterknife-compiler']
+
+    api rootProject.ext.config["retrofit"]
+    api rootProject.ext.config["adapter-rxjava"]
+    api rootProject.ext.config["okhttp3"]
+    api rootProject.ext.config["okhttp3-logging-interceptor"]
+
+    api rootProject.ext.config["fastjson"]
+    api rootProject.ext.config["retrofit2-fastjson-converter"]
+    api rootProject.ext.config["convertergson"]
+
+    api rootProject.ext.config["rxpermissions"]
+
+    api rootProject.ext.config["constraint-layout"]
+
+    api rootProject.ext.config["FlycoTabLayout_Lib"]
+
+    compile ('com.alibaba.android:ultraviewpager:1.0.7.7@aar') {
+        transitive = true
+    }
+
+    api rootProject.ext.config["eventbus"]
+    api rootProject.ext.config["BaseRecyclerViewAdapterHelper"]
+    api rootProject.ext.config["banner"]
+    api rootProject.ext.config["stream"]
+    api rootProject.ext.config["SmartRefreshLayout"]
+    api rootProject.ext.config["SmartRefreshHeader"]
+
+//    annotationProcessor rootProject.ext.config["dagger-compiler"]
+//    provided 'org.glassfish:javax.annotation:10.0-b28'
+//    compile rootProject.ext.config["dagger"]
+//    compile rootProject.ext.config["daggerAndAndroid"]
+//    compile rootProject.ext.config["daggerAndAndroid_support"]
+//    annotationProcessor rootProject.ext.config["dagger-android-processor"]
 
 }
